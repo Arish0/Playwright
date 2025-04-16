@@ -1,7 +1,7 @@
 const {test,expect} = require('@playwright/test')
 
 test('login and password',async ({page})=>{
-    await page.goto('https://www.flipkart.in');
+    await page.goto('https://www.flipkart.in/');
 
     
 
