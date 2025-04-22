@@ -20,6 +20,7 @@ test('assertions', async ({ page }) => {
 
   await expect(loginButton).toBeVisible();
   await expect(loginButton).toBeEnabled();
+  
   await expect(username).toHaveAttribute('placeholder', 'Username');
   
   await expect(password).toHaveAttribute('placeholder', 'Password');
