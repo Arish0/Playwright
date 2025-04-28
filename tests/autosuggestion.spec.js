@@ -11,7 +11,7 @@ test('handling-auto sugestion', async ({ page })=>{
         console.log(value);
         if(value.includes('Yellanahalli')){
             await options1.click();
-            break;
+            break
         }
     }
     await page.waitForTimeout(2000);
